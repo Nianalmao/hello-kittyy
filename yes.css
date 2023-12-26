@@ -1,0 +1,44 @@
+body {
+	background-image: url('Hello Kitty Wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.kilig img {
+	width: 200px;
+}
+
+.kilig {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 3em;
+}
+.img2{
+	position: relative;
+	left: 25em;
+}
+.img1{
+	position: relative;
+	right: 25em;
+}
+span{
+	background-color: rgb(201, 65, 88);
+	font-family: cursive;
+	position: relative;
+	left: 8em;
+}
+audio{
+	opacity: 0;
+}
+iframe{
+	margin-top: 10px;
+	width: 70%;
+	height: 400px;
+	margin-left: 250px;
+}
+p{
+	font-size: 25px;
+	font-family: cursive;
+}
